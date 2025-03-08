@@ -79,8 +79,4 @@ if st.session_state["resultados"]:
     df = pd.DataFrame(st.session_state["resultados"], columns=["Imagen", "Predicción"])
     st.dataframe(df)
 else:
-<<<<<<< HEAD
     st.write("No hay resultados almacenados aún.")
-=======
-    st.write("No hay resultados almacenados aún.")
->>>>>>> 908c8c3 (Corrección de errores en la predicción del modelo)
